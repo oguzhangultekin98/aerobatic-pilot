@@ -1,9 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class GravityHolder
+namespace OG.Movement
 {
-    public float gravityCoefficient = 0;
-    public const float Gravity = -25f;
+    public class GravityHolder
+    {
+        public float gravityCoefficient = 0;
+        public const float Gravity = -25f;
+    }
 }
