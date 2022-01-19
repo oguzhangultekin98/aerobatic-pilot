@@ -283,8 +283,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4181781591516288}
-  - component: {fileID: 95673120308393774}
-  - component: {fileID: 114119192011539012}
   m_Layer: 0
   m_Name: FighterInterceptor
   m_TagString: Untagged
@@ -313,55 +311,6 @@ Transform:
   m_Father: {fileID: 4427129057575456}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!95 &95673120308393774
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1240598685082604}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 499a337f467d51a4faf75881db1f2e90, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114119192011539012
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1240598685082604}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88ef3bf5bd188d04a9dd9f0feb937108, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tex: {fileID: 0}
-  rightElevator: {fileID: 4616544219842838}
-  leftElevator: {fileID: 4612887498559300}
-  rightFlap: {fileID: 4040824410442684}
-  leftFlap: {fileID: 4380051936380290}
-  rightRudder: {fileID: 4561071471405796}
-  leftRudder: {fileID: 4745763218709978}
-  MRx: 0
-  MRy: 0
-  MRz: 0
-  maxAngle: 33
-  flapMaxAngle: 45
-  rudderMaxAngle: 30
-  rightElevatorSetAngle: 0
-  leftElevatorSetAngle: 0
-  useMouse: 0
-  turnFlap: 0
-  turnSpeed: 2
 --- !u!1 &1336972379380208
 GameObject:
   m_ObjectHideFlags: 0

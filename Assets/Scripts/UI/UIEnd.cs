@@ -36,7 +36,7 @@ namespace OG.UI
 
         public void LoadLevel()
         {
-            LevelLoader.LoadLevel(SaveSystem.Level % 4 + 1);
+            LevelLoader.LoadLevel(SaveSystem.Level % 2);
         }
 
         public string WowTexts(bool succesfull)
@@ -49,16 +49,16 @@ namespace OG.UI
                 switch (index)
                 {
                     case 0:
-                        return "NAILED IT!";
+                        return "GUZEL!";
                     case 1:
-                        return "PERFECT!";
+                        return "IYI!";
                     default:
-                        return "SPLENDID";
+                        return "MUHTESEM";
                 }
             }
 
             else
-                return "FAILED!";
+                return "BASARISIZ!";
         }
     }
 }

@@ -26,7 +26,7 @@ namespace OG.Core
             // GameAnalytics.Initialize();
             //To Do: Create a script that responsible for that.
             if (ActiveSceneBuildIndex == 0)
-                LoadLevel(SaveSystem.Level % 3 + 1);
+                LoadLevel(SaveSystem.Level % 2);
         }
 
         // public void initFB()
